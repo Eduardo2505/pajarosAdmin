@@ -24,11 +24,11 @@ class Admin extends CI_Controller {
 	}
 
 	public function updateVeces(){
-
+        $newDate = date("Y-m-d");
 		$id = $this->input->post('id');
 		$data = array(
 			'veces' => $this->input->post('veces'),
-			'lastView' => $this->input->post('lastView'));
+			'lastView' => $newDate);
 
 		$notas=$this->models_avistamientos->update($id,$data);
 		
