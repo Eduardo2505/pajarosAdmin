@@ -6,3 +6,5 @@ ionic g page home
 ionic g provider BirdsService
 
 ionic g provider VarsGlobales
+
+ionic upload
