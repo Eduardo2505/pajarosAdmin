@@ -1,0 +1,8 @@
+ionic start pajaros sidemenu --v2
+
+ionic g page home
+
+
+ionic g provider BirdsService
+
+ionic g provider VarsGlobales
